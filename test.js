@@ -3,7 +3,7 @@ const chager = {
 	age: 20,
 }
 
-const temix = chager
+const temix = Object.assign({}, chager)
 temix.fullName = 'Тимур'
 temix.age = 13
 
